@@ -1,0 +1,15 @@
+name: HelloWorld
+version: 1.1
+main: me.zaochen.helloworld.HelloWorld
+api-version: 1.15
+commands:
+  helloworld:
+    description: 插件主指令
+  gonggao:
+    description: 发送公告
+  add:
+    description: 测试相加
+permissions:
+  helloworld.commands.gonggao:
+    description: 公告
+    default: op
